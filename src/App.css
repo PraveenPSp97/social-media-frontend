@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav,ul{
+  display: flex;
+  background-color: beige;
+}
+ul, li{
+  text-decoration: none;
+}
+li{
+  display: block;
+  margin: 0 1rem;
+}
+
+.link{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  background-color: #152238;
+  height: 50px;
+  /* padding: 0 2px; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin:0
+  
+}
+
+.icons{
+  
+  margin:0 10px 0 10px;
+  cursor: pointer;
+  opacity: 0.85;
+  
+}
+
+.icons:hover{
+  opacity: 1;
+}
+.search{
+  border-radius: 5px;
+  background-color: #1c2e4a;
+  border: none;
+  color: white;
+  width: 20rem;
+  /* color: rgb(241, 230, 230); */
+}
+.newPost{
+  width: 500px;
+  align-items: center;
+ 
+  height: 10vh;
+  margin: auto;
+  color: white;
+  background-color: #1c2e4a
+  
+ }
+ .newpostInput{
+  width: 350px;
+  background-color: #233656;
+  height: 30px;
+  color: white;
+ }
+ .previewImage{
+  width: 500px;
+  
+  object-fit: cover;
+ }
+
+ .post{
+  background-color: #1c2e4a;
+  width: 500px;
+ }
+
+ .comment{
+  margin: 20px;
+  padding: 5px;
+  padding-right: 10px;
+  
+  border-radius: 5px;
+ }
+.comment:hover{
+  border: solid rgb(174, 164, 164) 0.2px;
+  background-color: #233656;
+}
+
+.profileImage{
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 5px;
+
+}
+
+.profileDetails{
+  background-color: #233656;
+}
+ /* Dark blue shades colours #23395d, #203354, #1c2e4a. HEX colors #23395d, #203354, #1c2e4a, #192841, #152238. Brand original color codes, colors palette. */
