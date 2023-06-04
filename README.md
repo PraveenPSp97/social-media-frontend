@@ -34,7 +34,8 @@ This is a social media application similar to Facebook, developed using React an
 ## Installation
 
 1. Clone the repositories
-2. Run Both front end and backend servers
+2. [Backend code](https://github.com/PraveenPSp97/Social-Media-Backend)
+3. Run Both front end and backend servers
 
 
 
